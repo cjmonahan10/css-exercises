@@ -12,6 +12,22 @@ img {
   font-weight: 900;
 }
 
+body {
+  text-align: center;
+}
+
+div.plant-list {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding-top: 32px;
+  flex-wrap: wrap;
+}
+
+div.plant {
+  max-width: 200px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
